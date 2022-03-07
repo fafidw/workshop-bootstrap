@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="container"> 
+        <img id="logo" alt="logo" src="./images/logo.jpg" class="not-lazy">
+      </div>
+    </header>
+
+    
+    
+    <section class="container">
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./images/chopp-21.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/brinde2.jpg" alt="Foto de Marta Branco no Pexels">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Cervejaria Maestro </h1>
+          <h6>A cada receita, uma sinfonia</h6>
+          <p>Como uma orquestra, a Cervejaria Maestro une diferentes habilidades, ingredientes e sabores em busca de algo único. É assim que nascemos: da vontade de fazer uma cerveja original, de sabor marcante e feita para deixar qualquer momento mais especial.</p>
+          <p>Sem filtragem e com receitas próprias, criadas e testadas por uma equipe de cervejeiros apreciadores e apaixonados, queremos fazer parte das suas festas, comemorações e de cada encontro que tenha música, amigos e diversão.</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./images/capturar.JPG" alt="oferta">
+        </div>
+      </div>
+
+      <h2>Cervejas Especiais</h2>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="./images/ipa.jpg" class="card-img-top" alt="ipa">
+            <div class="card-body">
+              <h5 class="card-title">IPA</h5>
+              <p class="card-text">Amargor e doçura. Como combinar dois sentimentos tão diferentes, só nosso Maestro Cervejeiro sabe. E só nossa Maestro IPA pode te dar essa sensação.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/kolsch.jpg" class="card-img-top" alt="kolsch">
+            <div class="card-body">
+              <h5 class="card-title">Kölsch</h5>
+              <p class="card-text">Estilo de cerveja ainda pouco conhecido no Brasil, a Kölsch é leve e refrescante como uma Pilsen, mas muito mais seca, como uma Ale.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/saison.JPG" class="card-img-top" alt="saison">
+            <div class="card-body">
+              <h5 class="card-title">Saison</h5>
+              <p class="card-text">Hibisco e damasco. Sua cor incrivelmente rosa e seu sabor levemente picante conquistam aos poucos e marcam na memória.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/stout.JPG" class="card-img-top" alt="stout">
+            <div class="card-body">
+              <h5 class="card-title">Stout</h5>
+              <p class="card-text">Aquele torrado, aquele gosto que lembra o café ou o chocolate. E a Maestro Stout ainda tem aquela espuma cremosa, coloração bem escura e o amargor típico das American Stout.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/weiss.JPG" class="card-img-top" alt="weiss">
+            <div class="card-body">
+              <h5 class="card-title">Weiss</h5>
+              <p class="card-text">A cerveja de trigo geralmente é a primeira cerveja artesanal de quem ainda está começando a experimentar novos sabores. A Weiss é clara e tem um leve sabor frutado que lembra banana.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="meuacordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Contatos
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Telefone: (47) 1111-1111</p>
+                  <p>WhatsApp: (47) 1111-1111</p>
+                  <p>E-mail: maestro@cervejamaestro.com.br</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Localização
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Rua XXX,11
+                     Bairro - Cidade - SC
+                  </p>
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p class="text-center">&copy; 2021 - Cervejaria Maestro</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+      console.log('hello world')
+    </script>
+  </body>
+</html>
